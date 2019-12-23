@@ -10,10 +10,13 @@ h1, h2, h3, h4, h5. h6 {
 footer {
     text-align: center;
     font-size:12px;
-    margin: 2rem 0;
+    margin: 2rem 0 0 0;
     background-color: black;
     color:white;
+    padding: 1rem;
 }
+
+
 
 .hero{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/things-to-do-in-south-korea-bibimbap-1533197638-735X412.jpg");
@@ -52,4 +55,26 @@ footer {
 .main-body {
     margin: 5rem 10rem;
 
+}
+
+.hello-mke{
+    width:100%;
+    opacity: 0.7;
+}
+
+.hello-mke:hover{
+    opacity: 1;
+}
+
+.footer-text{
+    color:white;
+    padding: 0 1rem;
+    letter-spacing: 1px;
+}
+
+.footer-text:hover{
+    color:grey;
+    text-decoration: none;
+    letter-spacing: 0;
+    
 }
