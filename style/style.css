@@ -7,6 +7,14 @@ h1, h2, h3, h4, h5. h6 {
     font-family: 'Inria Serif', serif;
 }
 
+footer {
+    text-align: center;
+    font-size:12px;
+    margin: 2rem 0;
+    background-color: black;
+    color:white;
+}
+
 .hero{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/things-to-do-in-south-korea-bibimbap-1533197638-735X412.jpg");
     height: 50%;
